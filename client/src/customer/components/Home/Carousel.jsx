@@ -1,7 +1,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { CarousalData } from './CarousalData';
+import { CarousalData } from '../../../../Data/CarousalData';
 
 const Carousel = () => {
     const items = CarousalData.map((item) => <img className='cursor-pointer' src={item.image} alt='image'/>)
